@@ -22,4 +22,3 @@ fun main() {
     val deserializedObject = objectMapper.readValue<JacksonExample>(serializedData)
     println("Исходный и десериализованный объекты равны: ${initialObject == deserializedObject}")
 }
-
