@@ -1,3 +1,4 @@
+package ru.sber.serialization
 
 data class Client7(
     val firstName: String,
